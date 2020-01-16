@@ -1,7 +1,7 @@
 package com.y2o2u2n.demo.service;
 
-import com.y2o2u2n.demo.entity.*;
-import com.y2o2u2n.demo.entity.item.Item;
+import com.y2o2u2n.demo.domain.*;
+import com.y2o2u2n.demo.domain.item.Item;
 import com.y2o2u2n.demo.repository.MemberRepository;
 import com.y2o2u2n.demo.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;

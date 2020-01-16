@@ -1,4 +1,4 @@
-package com.y2o2u2n.demo.entity;
+package com.y2o2u2n.demo.domain;
 
 import lombok.Getter;
 import lombok.Setter;

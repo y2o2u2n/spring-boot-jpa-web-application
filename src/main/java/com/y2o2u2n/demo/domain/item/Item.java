@@ -1,6 +1,6 @@
-package com.y2o2u2n.demo.entity.item;
+package com.y2o2u2n.demo.domain.item;
 
-import com.y2o2u2n.demo.entity.Category;
+import com.y2o2u2n.demo.domain.Category;
 import com.y2o2u2n.demo.exception.NotEnoughStockException;
 import lombok.Getter;
 import lombok.Setter;

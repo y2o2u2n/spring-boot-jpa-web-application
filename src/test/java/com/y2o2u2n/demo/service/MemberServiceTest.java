@@ -1,6 +1,6 @@
 package com.y2o2u2n.demo.service;
 
-import com.y2o2u2n.demo.entity.Member;
+import com.y2o2u2n.demo.domain.Member;
 import com.y2o2u2n.demo.repository.MemberRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;

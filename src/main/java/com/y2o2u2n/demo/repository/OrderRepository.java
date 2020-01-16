@@ -1,8 +1,8 @@
 package com.y2o2u2n.demo.repository;
 
-import com.y2o2u2n.demo.entity.Member;
-import com.y2o2u2n.demo.entity.Order;
-import com.y2o2u2n.demo.entity.OrderSearch;
+import com.y2o2u2n.demo.domain.Member;
+import com.y2o2u2n.demo.domain.Order;
+import com.y2o2u2n.demo.domain.OrderSearch;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 import org.springframework.util.StringUtils;

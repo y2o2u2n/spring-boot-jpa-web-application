@@ -1,6 +1,6 @@
 package com.y2o2u2n.demo.repository;
 
-import com.y2o2u2n.demo.entity.Member;
+import com.y2o2u2n.demo.domain.Member;
 import org.springframework.stereotype.Repository;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

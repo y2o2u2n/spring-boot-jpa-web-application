@@ -1,11 +1,11 @@
 package com.y2o2u2n.demo.service;
 
-import com.y2o2u2n.demo.entity.Address;
-import com.y2o2u2n.demo.entity.Member;
-import com.y2o2u2n.demo.entity.Order;
-import com.y2o2u2n.demo.entity.OrderStatus;
-import com.y2o2u2n.demo.entity.item.Book;
-import com.y2o2u2n.demo.entity.item.Item;
+import com.y2o2u2n.demo.domain.Address;
+import com.y2o2u2n.demo.domain.Member;
+import com.y2o2u2n.demo.domain.Order;
+import com.y2o2u2n.demo.domain.OrderStatus;
+import com.y2o2u2n.demo.domain.item.Book;
+import com.y2o2u2n.demo.domain.item.Item;
 import com.y2o2u2n.demo.exception.NotEnoughStockException;
 import com.y2o2u2n.demo.repository.OrderRepository;
 import org.junit.Test;

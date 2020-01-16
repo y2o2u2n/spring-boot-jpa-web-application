@@ -1,6 +1,6 @@
 package com.y2o2u2n.demo.repository;
 
-import com.y2o2u2n.demo.entity.item.Item;
+import com.y2o2u2n.demo.domain.item.Item;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 

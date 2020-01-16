@@ -1,6 +1,6 @@
-package com.y2o2u2n.demo.entity;
+package com.y2o2u2n.demo.domain;
 
-import com.y2o2u2n.demo.entity.item.Item;
+import com.y2o2u2n.demo.domain.item.Item;
 import lombok.Getter;
 import lombok.Setter;
 
