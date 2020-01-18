@@ -19,19 +19,19 @@ public class OrderRepository {
 
     private final EntityManager em;
 
-    public void save(me.y2o2u2n.demo.domain.Order order) {
+    public void save(Order order) {
         em.persist(order);
     }
 
-    public me.y2o2u2n.demo.domain.Order findOne(Long id) {
-        return em.find(me.y2o2u2n.demo.domain.Order.class, id);
+    public Order findOne(Long id) {
+        return em.find(Order.class, id);
     }
 
-    public List<me.y2o2u2n.demo.domain.Order> findAllByCriteria(OrderSearch orderSearch) {
+    public List<Order> findAllByCriteria(OrderSearch orderSearch) {
         CriteriaBuilder cb = em.getCriteriaBuilder();
-        CriteriaQuery<me.y2o2u2n.demo.domain.Order> cq = cb.createQuery(me.y2o2u2n.demo.domain.Order.class);
-        Root<me.y2o2u2n.demo.domain.Order> o = cq.from(me.y2o2u2n.demo.domain.Order.class);
-        Join<me.y2o2u2n.demo.domain.Order, Member> m = o.join("member", JoinType.INNER); //회원과 조인
+        CriteriaQuery<Order> cq = cb.createQuery(Order.class);
+        Root<Order> o = cq.from(Order.class);
+        Join<Order, Member> m = o.join("member", JoinType.INNER); //회원과 조인
 
         List<Predicate> criteria = new ArrayList<>();
 
